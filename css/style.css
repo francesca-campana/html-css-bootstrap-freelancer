@@ -26,7 +26,7 @@ a {
   color: #2c3e50;
 }
 
-.ms_section-primary .divider {
+.ms_section-primary.divider {
   color: white;
 }
 
@@ -105,12 +105,22 @@ a {
 /* Fine Portfolio */
 
 /* Form */
-.ms_btn {
+.ms_btn_primary {
   background-color: #1abc9c;
   border: #1abc9c;
   color: white;
   margin-top: 20px;
-
+}
+.ms_btn_secondary {
+  background-color: #1abc9c;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  color: white;
+  padding: 15px 20px;
+  margin-top: 20px;
+  font-size: 1.5em;
+  /* width: 300px;
+  height: 150px; */
 }
 /* Fine Form */
 
