@@ -14,40 +14,98 @@ section {
 
 }
 .ms_section-secondary {
-  color: #2c3e50;;
-}
-.ms_section-secondary .ms_section-titol {
   color: #333;
+  background-color: white;
+}
+.ms_section-secondary .ms_section-star {
+  color: #2c3e50;
+}
+.ms_section-primary .divider {
+  color: white;
+}
+.divider {
+  width: max-content;
+  margin: 0 auto;
+}
+
+.divider i {
+  margin: 15px;
+  font-size: 2.1em;
+  /* color: #2c3e50; */
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  display: inline-block;
+  width: 70px;
+  height: 4px;
+  background-color: #2c3e50;
+  position: relative;
+  top: -9px;
+  border-radius: 4px;
 }
 /* Regole Base */
 
 /* Components */
+
+/* Navbar */
 .ms_navbar {
   background-color: #2c3e50;
   padding-top: 70px;
 }
+/* Fine Navbar */
 
+/* Jumbotron */
 .ms_jumbotron {
   background-color: #1abc9c;
   text-align: center;
   color: white;
   padding: 32px 0;
 }
+.ms_avatar img{
+  height: 200px;
+}
+
+/* Fine Jumbotron */
+
 /* Portfolio */
-.ms_portfolio-item {
-  background-color: #ba4b63;
-  height: 388px;
+.ms_portfolio-item img {
+  /* background-color: #ba4b63; */
+  /* height: 388px; */
+  width: 250px;
   border-radius: 5px;
   margin-bottom: 30px;
 }
+
 .ms_portfolio {
    text-align: center;
 }
+/* Fine Portfolio */
+
 /* About */
-.ms_wrapper {
+.ms_wrapper-60 {
   width: 60%;
   margin: 0 auto;
 }
+
+/* Footer */
+footer .footer-section {
+  padding: 40px 0;
+}
+footer .company_info {
+  background-color: #3a546c;
+  color: white;
+  padding: 80px 0;
+}
+
+footer .company_credits {
+  background-color: #2c3e50;
+  color: white;
+  padding: 30px 0;
+}
+
+/* Fine Footer */
 
 /* Media Query */
 @media screen and (min-width: 768px) {
